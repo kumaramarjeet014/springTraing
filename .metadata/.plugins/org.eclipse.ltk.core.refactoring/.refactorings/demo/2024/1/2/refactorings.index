@@ -1,0 +1,9 @@
+1704702995305	Delete element
+1704706072658	Rename field 'userNumber'
+1704706084127	Rename field 'userName'
+1704706102083	Rename field 'date'
+1704706962765	Rename method 'getUserNumber'
+1704706972293	Rename method 'setUserNumber'
+1704706997242	Rename method 'getUserName'
+1704707125442	Rename method 'getDate'
+1704707153982	Rename method 'setDate'

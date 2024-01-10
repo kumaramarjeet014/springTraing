@@ -1,0 +1,47 @@
+package com.bvr;
+
+import java.util.Date;
+
+public class User {
+
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(int userNumber, String userName, Date date) {
+		this.userNumber = userNumber;
+		this.userName = userName;
+		this.date = date;
+	}
+	
+	private int userNumber;
+	
+	private String userName;
+	
+	private Date date;
+
+	public int getUserNumber() {
+		return userNumber;
+	}
+
+	public void setUserNumber(int userNumber) {
+		this.userNumber = userNumber;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+}
